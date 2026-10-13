@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登录界面</title>
+        <style>
+      body {
+        background-color: #f0f4f8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: sans-serif;
+      }
+
+      .card {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #2c3e50;
+        margin-bottom: 12px;
+      }
+
+      p {
+        color: #666;
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 10px 24px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #2980b9;
+      }
+    </style>
+
 </head>
 <body>
+    <div class="card">
     <h1>MJ67登录系统</h1>
     <form>账号：
     <input type="text" placeholder="请输入账号">
@@ -14,6 +59,7 @@
     <input type="password" placeholder="请输入密码">
     <br>
     <button type="submit">登录</button>
+    </div>
     </form>    
 </body>
 </html>
